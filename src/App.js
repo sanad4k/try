@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Navbar />
       <div className='parent'>
-        <Card src='./photos/sena.jpg' />
+        <Card src='./p/senna.jpg' />
       </div>
       <h1>hey is it up there</h1>
 

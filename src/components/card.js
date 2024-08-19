@@ -1,4 +1,4 @@
-const Card =(src)=>{
+const Card =({src})=>{
     return(
         <div className="card">
             <div className="image-container">

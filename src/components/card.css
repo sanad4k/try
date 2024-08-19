@@ -1,0 +1,41 @@
+.card {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 300px; /* Fixed width */
+    overflow: hidden; /* Hide overflowing content */
+    background-color: #fff; /* White background */
+    margin: 20px; /* Spacing around the card */
+    padding: 10px; /* Padding inside the card */
+  }
+  
+  .image-container {
+    width: 100%; /* Full width */
+    height: 200px; /* Fixed height */
+    overflow: hidden; /* Hide overflow */
+  }
+  
+  .the_image {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Maintain aspect ratio, cover container */
+  }
+  
+  .text_box {
+    padding: 10px; /* Padding inside the text box */
+    text-align: center; /* Center-align text */
+  }
+  
+  .title {
+    font-size: 18px; /* Font size for title */
+    font-weight: bold; /* Bold font weight */
+    color: #333; /* Dark gray color */
+    margin-bottom: 5px; /* Space between titles */
+  }
+  
+  .title:last-child {
+    font-size: 14px; /* Smaller font size for subtitle */
+    font-weight: normal; /* Normal font weight for subtitle */
+    color: #666; /* Lighter gray color */
+  }
+  

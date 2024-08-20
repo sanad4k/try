@@ -5,12 +5,13 @@
     background-color: #333;
     padding: 5px;
     box-sizing: border-box;
+    height: 75px;
 }
 
 .brand a {
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 45px;
 }
 
 .toggler{
@@ -19,7 +20,8 @@
 
 .menuItems {
     display: flex;
-    gap: 1rem;
+    gap: 15px;
+    font-size: large;
 }
 
 .menuItems a {

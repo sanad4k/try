@@ -2,16 +2,19 @@
     border: 1px solid #ddd; /* Light gray border */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    width: 300px; /* Fixed width */
+    width:400px;
+    flex-wrap: wrap;
     overflow: hidden; /* Hide overflowing content */
     background-color: #fff; /* White background */
     margin: 20px; /* Spacing around the card */
     padding: 10px; /* Padding inside the card */
+    display: flex;
+    flex-direction: column;
   }
   
   .image-container {
     width: 100%; /* Full width */
-    height: 200px; /* Fixed height */
+    height: 400px;
     overflow: hidden; /* Hide overflow */
   }
   

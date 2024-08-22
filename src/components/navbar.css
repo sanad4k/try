@@ -21,7 +21,7 @@
 .menuItems {
     display: flex;
     gap: 15px;
-    font-size: large;
+    font-size: 20px;
 }
 
 .menuItems a {

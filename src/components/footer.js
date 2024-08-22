@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import { faFacebook , faInstagram , faLinkedin,faTwitter,faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
@@ -29,7 +31,18 @@ const Footer = () => {
         </div>
       </div>
       <div className="footer-bottom">
-        
+        <a href='#'>
+            <FontAwesomeIcon icon={faInstagram}/>
+        </a>
+        <a href='#'>
+            <FontAwesomeIcon icon={faYoutube}/>
+        </a>
+        <a href='#'>
+            <FontAwesomeIcon icon={faLinkedin}/>
+        </a>
+        <a href='#'>
+            <FontAwesomeIcon icon={faTwitter}/>
+        </a>
       </div>
     </footer>
   );

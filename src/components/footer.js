@@ -32,16 +32,16 @@ const Footer = () => {
       </div>
       <div className="footer-bottom">
         <a href='#'>
-            <FontAwesomeIcon icon={faInstagram}/>
+            <FontAwesomeIcon className='icon_color' icon={faInstagram}  size='2x'/>
         </a>
         <a href='#'>
-            <FontAwesomeIcon icon={faYoutube}/>
+            <FontAwesomeIcon className='icon_color' icon={faYoutube} size='2x'/>
         </a>
         <a href='#'>
-            <FontAwesomeIcon icon={faLinkedin}/>
+            <FontAwesomeIcon className='icon_color' icon={faLinkedin} size='2x'/>
         </a>
         <a href='#'>
-            <FontAwesomeIcon icon={faTwitter}/>
+            <FontAwesomeIcon className='icon_color' icon={faTwitter} size='2x'/>
         </a>
       </div>
     </footer>

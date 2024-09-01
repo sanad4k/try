@@ -10,7 +10,7 @@ const Card = ({ src , name , details1 , details2}) => {
             <div className="text_box">
                 <div className="title">{name}</div>
                 <div className="title details1">{details1}</div>
-                <div className="title details2">{details2}</div>
+                <div className="details2">{details2}</div>
                 <br/>   
             </div>
         </div>

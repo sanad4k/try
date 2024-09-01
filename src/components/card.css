@@ -25,13 +25,11 @@
   width: 100%; /* Full width of the container */
   height: 100%; /* Full height of the container */
   object-fit: cover; /* Maintain aspect ratio, cover container */
-  /* transition: transform 0.3s ease; Smooth scaling transition */
+  transition: transform 0.3s ease; /* Smooth scaling transition */
 }
 
-
-
 .text_box {
-  padding: 10px; /* Padding inside the text box */
+  padding: 5px; /* Padding inside the text box */
   text-align: center; /* Center-align text */
 }
 
@@ -39,6 +37,18 @@
   font-size: 18px; /* Font size for title */
   font-weight: bold; /* Bold font weight */
   color: #333; /* Dark gray color */
-  margin-bottom: 5px; /* Space between titles */
+  margin-bottom: 5px; /* Space between title and details */
+  border-bottom:1px solid black;
+  display: block;
 }
 
+.details1  {
+  font-size: 14px; /* Smaller font size for details */
+  font-weight: normal; /* Normal font weight */
+  color: #666; /* Lighter gray color for details */
+}
+.details2{
+font-size: 14px; /* Smaller font size for details */
+  font-weight: normal; /* Normal font weight */
+  color: #666; /* Lighter gray color for details */
+}

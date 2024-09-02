@@ -15,11 +15,14 @@ const Navbar = ()=>{
                 
             </div>
             <div className={`menuItems ${open ? 'open' : ''}`}>
-                <a href='#'>Home</a>
-                <a href='#'>About</a>
-                <a href='#'>Projects</a>
+                <a href='#'>HOME</a>
+                <a href='#'>ABOUT</a>
+                <a href='#'>PROJECTS</a>
+                <a href='#'>TEAM</a>
+                <a href='#'>GALLERY</a>
+                <a href='#'>CONTACT</a>
             </div>
-            <button className='toggler' onClick={toggle}>☰</button>
+            <button className={` ${open ? 'toggle_clr': 'toggler'}`} onClick={toggle}>☰</button>
         </nav>
     )
 }

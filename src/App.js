@@ -19,7 +19,7 @@ function App() {
           <Card src='/photos/ZEUS.jpg'name='ZEUS' details1='SUPRA SAE India 2023| Overall AIR 27' details2='Bajaj Dominar 400 engine Suspension: Front - Pull rod, Rear-Push rod Hanging Chassis ASI 4130 Chromoly Chassis 7th in design 10th in acceleration '  />
         </div>
       </div>
-      <h1>hey is it up there</h1>
+   
       <Footer />
     </div>
   );

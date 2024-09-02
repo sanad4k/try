@@ -10,8 +10,8 @@ const Navbar = ()=>{
     return(
         <nav className='navbar'>
             <div className='brand'>
-                {/* <a href='#'><img alt='logo' src='' className='logo_image'/></a> */}
-                <a href='#' className='brandName'>twu</a>
+                <a href='#'><img alt='logo' src='logo.png' className='logo_image'/></a>
+                {/* <a href='#' className='brandName'>twu</a> */}
                 
             </div>
             <div className={`menuItems ${open ? 'open' : ''}`}>

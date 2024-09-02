@@ -13,6 +13,11 @@
 
 .card:hover {
   transform: scale(1.05); /* Scale up card on hover */
+  border: 1px solid rgb(255, 72, 0);
+}
+.card:hover .title{
+  color:rgb(255, 72, 0)
+
 }
 
 .image-container {

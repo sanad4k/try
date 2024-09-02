@@ -7,6 +7,7 @@
     padding-right: 125px;
     box-sizing: border-box;
     height: 75px;
+    /* opacity:70%; */
     
 }
 
@@ -29,6 +30,13 @@
 .menuItems a {
     color: white;
     text-decoration: none;
+}
+.logo_image{
+    margin-left:40px;
+    opacity: 100%;
+    width:110px;
+    height:100%;
+    object-fit: cover;
 }
 
 /* Mobile view */
